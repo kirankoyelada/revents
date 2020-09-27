@@ -21,6 +21,7 @@ function NavBar({setFormOpen}) {
                  Re-vents
              </Menu.Item>
              <Menu.Item name="Events" as={NavLink} to="/events"/>
+             <Menu.Item name="Sandbox" as={NavLink} to="/sandbox"/>
              {isAuthenticated && 
              <Menu.Item as={NavLink} to="/createEvent">
                  <Button content="Create Event" positive inverted/>
